@@ -10,7 +10,7 @@ body {
     margin: 0;
     min-width: 100dvw;
     min-height: 100dvh;
-    background-color: #141c1c;
+    background-color: #000000;
 }
 h1, h2, h3, h4 {
     text-wrap: balance;
