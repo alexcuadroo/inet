@@ -10,7 +10,7 @@ const pages = [
     },
     {
       title: "Principios de inducción primitiva",
-      url: "/logica/induccon-primitiva.html"
+      url: "/logica/induccion-primitiva.html"
     },
 ];
 
