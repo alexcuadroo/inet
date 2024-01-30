@@ -2,15 +2,15 @@
 const pages = [
     {
       title: "Lenguajes y sistemas formales",
-      url: "/logica/lenguajes-y-sistemas-formales.html"
+      url: "logica/lenguajes-y-sistemas-formales.html"
     },
     {
       title: "Conjuntos inductivos",
-      url: "/logica/conjuntos-inductivos.html"
+      url: "logica/conjuntos-inductivos.html"
     },
     {
       title: "Principios de inducción primitiva",
-      url: "/logica/induccion-primitiva.html"
+      url: "logica/induccion-primitiva.html"
     },
 ];
 
