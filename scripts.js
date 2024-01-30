@@ -14,7 +14,7 @@ const pages = [
     },
 ];
 
-// Search bar
+// Barra de Búsqueda
 const searchBar = document.querySelector(".search-bar");
 const searchInput = searchBar.querySelector(".search-input");
 
