@@ -118,14 +118,14 @@ footer a:hover {
     color: rgb(0, 0, 255);
 }
 .logica {
-    background-image: url(https://i1.pickpik.com/photos/812/952/1011/brain-mind-psychology-idea-preview.jpg);
+    background-image: url(/recursos/logica.webp);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .programacion {
-    background-image: url(https://c.pxhere.com/photos/41/36/programming_code_development_web_computer_php-767130.jpg!d);
+    background-image: url(/recursos/programacion.webp);
     background-size: cover;
     display: flex;
     justify-content: center;
