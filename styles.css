@@ -118,14 +118,14 @@ footer a:hover {
     color: rgb(0, 0, 255);
 }
 .logica {
-    background-image: url(/recursos/logica.webp);
+    background-image: url(recursos/logica.webp);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .programacion {
-    background-image: url(/recursos/programacion.webp);
+    background-image: url(recursos/programacion.webp);
     background-size: cover;
     display: flex;
     justify-content: center;
