@@ -12,4 +12,9 @@ export const pages = [
             { url: 'induccion-primitiva.html', title: 'Propiedades de la Lógica de Predicados' },
             { url: 'induccion-primitiva.html', title: 'Otros' },
   ];
-  
+  // los datos de pagesProg hay que meterlos a mano arriba ⬆️ para que aparezcan en el search bar
+export const pagesProg = [
+    { url: '#', title: 'Programación' },
+    { url: '#', title: 'Programación' },
+    { url: '#', title: 'Programación' },
+]
