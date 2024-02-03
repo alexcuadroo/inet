@@ -1,20 +1,4 @@
-// Data structure for pages
-const pages = [
-    {
-      title: "Lenguajes y sistemas formales",
-      url: "logica/lenguajes-y-sistemas-formales.html"
-    },
-    {
-      title: "Conjuntos inductivos",
-      url: "logica/conjuntos-inductivos.html"
-    },
-    {
-      title: "Principios de inducción primitiva",
-      url: "logica/induccion-primitiva.html"
-    },
-];
-
-// Barra de Búsqueda
+import { pages } from './data.js';
 const searchBar = document.querySelector(".search-bar");
 const searchInput = searchBar.querySelector(".search-input");
 
