@@ -26,7 +26,8 @@ h1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-shadow: #a7ff96 0px 0px 5px;
+    text-shadow: #000000 0px 0px 5px;
+    width: 94dvw;
 }
 #lupa {
     color: white;
@@ -140,6 +141,10 @@ footer a:hover {
     
     h1 {
         font-size: 4rem;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 600;
+        padding-top: 90px;
+        margin: auto;
     }
     #lupa {
         color: white;
