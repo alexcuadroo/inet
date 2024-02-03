@@ -1,4 +1,4 @@
-import { pages } from '/../data.js';
+import { pages } from './../data.js';
         const contenedor = document.getElementById('contenedor');
     
         pages.forEach(item => {
