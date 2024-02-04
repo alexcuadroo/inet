@@ -9,12 +9,7 @@ Bienvenido al Repositorio de Archivos con Buscador, una herramienta desarrollada
 - **Fácil de Navegar:** Interfaz intuitiva para una experiencia fluida.
 
 ## 📂 Estructura del Repositorio
--- Lógica y Programación I
--- Tema 1
--- archivo1.js
--- archivo2.txt
--- archivo3.html
--- archivo4.pdf
+
 
 
 ## 🌐 Uso
