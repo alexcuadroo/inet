@@ -1,11 +1,11 @@
-import { pages } from './data.js';
+import { search } from './data.js';
 const searchBar = document.querySelector(".search-bar");
 const searchInput = searchBar.querySelector(".search-input");
 
 // Input field change event
 searchInput.addEventListener("input", () => {
     // Filter search results
-    const filteredPages = pages.filter((page) => {
+    const filteredPages = search.filter((page) => {
         return page.title.toLowerCase().includes(searchInput.value.toLowerCase());
     });
 
