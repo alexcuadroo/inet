@@ -26,5 +26,3 @@ Alex Cuadro
 GitHub: tu-usuario
 LinkedIn: tu-linkedin
 
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
