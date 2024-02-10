@@ -25,4 +25,3 @@ Bienvenido al Repositorio de Archivos con Buscador, una herramienta desarrollada
 Alex Cuadro
 GitHub: tu-usuario
 LinkedIn: tu-linkedin
-
