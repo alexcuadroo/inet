@@ -29,7 +29,7 @@ export const pages = [
 ];
   // los datos de pagesProg hay que meterlos a mano arriba ⬆️ para que aparezcan en el pages, el search bar es independiente pero hay que ingresar datos allí a mano (debido a que la ruta del directorio se repite y peta)
 export const pagesProg = [
-    { url: '#', title: 'Programación' },
-    { url: '#', title: 'Programación' },
-    { url: '#', title: 'Programación' },
+    { url: '#', title: 'Próximamente' },
+    { url: '#', title: 'Próximamente' },
+    { url: '#', title: 'Próximamente' },
 ]
