@@ -16,7 +16,7 @@ Bienvenido al Repositorio de Archivos con Buscador, una herramienta desarrollada
 
 1. **Clona el Repositorio:**
    ```bash
-   git clone https://tu-repositorio.git
+   git clone git@github.com:alexcuadroo/inet.git
 
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si quieres añadir más temas, mejorar la búsqueda, o cualquier otra mejora, ¡adelante! Abre un issue o envía un pull request.
