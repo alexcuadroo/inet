@@ -1,7 +1,7 @@
-import { pages } from './../data.js';
+import { logica } from './../data.js';
         const contenedor = document.getElementById('contenedor');
     
-        pages.forEach(item => {
+        logica.forEach(item => {
             const div = document.createElement('div');
             div.className = item.class;
             div.onclick = () => window.open(item.url, '_self');
