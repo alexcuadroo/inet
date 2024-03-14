@@ -1,4 +1,4 @@
-import {programacion} from './../data.js';
+import {programacion} from '../data.js';
 const contenedor = document.getElementById('contenedor');
     
         programacion.forEach(item => {
