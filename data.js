@@ -1,5 +1,5 @@
 export const logica = [
-  { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Epf7Rmtto1dMiwUWGqWHcDQBXUKwAUCTiG6cbSi_HUkhzQ?e=KHVhKC', title: 'L1- Lenguajes y sistemas formales' },
+            { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Epf7Rmtto1dMiwUWGqWHcDQBXUKwAUCTiG6cbSi_HUkhzQ?e=KHVhKC', title: 'L1- Lenguajes y sistemas formales' },
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ev7bqZr-wqxIuIbnYJMQz28BQDvX5t-y6PjPbPIh-W4JOw?e=PON6ej', title: 'L2- Conjuntos inductivos' },
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ekkd4Lujql5Kl82_Nne_F0kBguwgEusw2p7vFXEypDwypw?e=jGjUBM', title: 'L3- Inducción primitiva' },
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EvDK4_7kPiNDja5Evv_eCnQBafp6qBT1nwZ1-jKRUzxmUg?e=6ewUxX', title: 'L4- Funciones recursivas primitivas' },

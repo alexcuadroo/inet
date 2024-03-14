@@ -1,4 +1,4 @@
-import { logica } from './../data.js';
+import { logica } from '../data.js';
         const contenedor = document.getElementById('contenedor');
     
         logica.forEach(item => {
