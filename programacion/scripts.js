@@ -1,7 +1,7 @@
-import {pagesProg} from './../data.js';
+import {programacion} from './../data.js';
 const contenedor = document.getElementById('contenedor');
     
-        pagesProg.forEach(item => {
+        programacion.forEach(item => {
             const div = document.createElement('div');
             div.className = item.class;
             div.onclick = () => window.open(item.url, '_self');

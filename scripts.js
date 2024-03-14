@@ -1,15 +1,15 @@
-import { search } from './data.js';
+import { logica, programacion } from './data.js';
 const searchBar = document.querySelector(".search-bar");
 const searchInput = searchBar.querySelector(".search-input");
 
-// Input field change event
+// Evento de cambio en el campo de entrada
 searchInput.addEventListener("input", () => {
-    // Filter search results
-    const filteredPages = search.filter((page) => {
+    // Filtra los resultados de búsqueda
+    const filteredPages = [...logica, ...programacion].filter((page) => {
         return page.title.toLowerCase().includes(searchInput.value.toLowerCase());
     });
 
-    // Display search results
+    // Muestra los resultados de búsqueda
     const resultsList = document.querySelector(".results-list");
     resultsList.classList.add("my-results-list");
     resultsList.innerHTML = "";
