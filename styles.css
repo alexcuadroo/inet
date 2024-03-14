@@ -65,7 +65,7 @@ h1 {
 .lista-item:hover {
     color: rgb(16, 0, 90);
     background: rgb(185, 235, 255);
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .archivos {
     padding-top: 250px;
