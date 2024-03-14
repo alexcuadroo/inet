@@ -4,7 +4,7 @@ import { logica } from '../data.js';
         logica.forEach(item => {
             const div = document.createElement('div');
             div.className = item.class;
-            div.onclick = () => window.open(item.url, '_self');
+            div.onclick = () => window.open(item.url, '_blank');
     
             const h3 = document.createElement('h3');
             h3.textContent = item.title;
