@@ -44,7 +44,9 @@ h4 {
     margin: 10px;
     color: #92a4ff;
 }
-
+nav {
+    display: none;
+}
 .contenedor {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
