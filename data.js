@@ -18,5 +18,5 @@ export const logica = [
 export const programacion = [
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EhbSvUWznftKvcBM4j3R4E0B259ozB6bUko-qfzJ63Xmng?e=aTTwUz', title: 'P1- Algoritmos y Seudocódigos' },
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ek9TegUJnCxIm3YYXOJ7GqkBxVifbUq6_gJvq25uy2R6IQ?e=fbmMIn', title: 'P2- Seudocódigo y Práct. 1,2,3' },
-    { url: 'https://app.alexcuadro.tech/inet/programacion/python.html', title: 'EXTRA - Python' }
+    { url: 'https://app.alexcuadro.tech/inet/programacion/python', title: 'EXTRA - Python' }
 ]
