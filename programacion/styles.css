@@ -106,8 +106,8 @@ footer a:hover {
     nav {
         display: block;
         float: left; /* Posiciona la navegación a la izquierda */
-        margin-left: 50px; /* Margen izquierdo */
-        margin-top: 10px;
+        margin-left: 15px; /* Margen izquierdo */
+        margin-top: 15px;
       }
       
       nav ul {
