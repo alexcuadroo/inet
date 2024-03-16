@@ -23,5 +23,5 @@ Bienvenido al Repositorio de Archivos con Buscador, una herramienta desarrollada
 
 ## 👤 Autor
 Alex Cuadro
-GitHub: tu-usuario
-LinkedIn: tu-linkedin
+- **GitHub:** alexcuadroo
+- **Instagram** alexcuadroo.
