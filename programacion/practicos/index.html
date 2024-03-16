@@ -27,6 +27,9 @@ h2 {
     font-size: 35px;
     text-align: center;
 }
+nav {
+    display: none;
+}
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -75,6 +78,36 @@ h2 {
         padding-top: 130px;
         margin: 0;
     }
+    nav {
+        display: block;
+        float: left; /* Posiciona la navegación a la izquierda */
+        margin-left: 15px; /* Margen izquierdo */
+        margin-top: 15px;
+      }
+      
+      nav ul {
+        list-style: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el relleno */
+      }
+      
+      nav li {
+        display: inline-block; /* Muestra los elementos como bloques en línea */
+        margin-right: 10px; /* Margen derecho entre elementos */
+      }
+      
+      nav li a {
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        color: #ffffff; /* Color del texto */
+        font-size: 16px; /* Tamaño de la fuente */
+        padding: 10px 15px; /* Relleno del enlace */
+        border: 1px solid #ccc; /* Borde del enlace */
+        border-radius: 5px; /* Borde redondeado */
+      }
+      
+      nav li a:hover {
+        background-color: #ddd; /* Color de fondo al pasar el ratón */
+        color: #000; /* Color del texto al pasar el ratón */
+      }
     .contenedor {
     display: flex;
     flex-direction: row;
@@ -115,7 +148,15 @@ h2 {
 }
     </style>
 </head>
-<body>  
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="../">🏠 Inicio</a></li>
+              <li><a href="../logica">🧠 Lógica</a></li>
+            </ul>
+          </nav>
+    </header>
     <h2>🕺🏻Prácticos</h2>
     <section class="contenedor">
         <a href="https://www.microsoft.com/store/productId/9NCVDN91XZQP?ocid=pdpshare" target="_blank" class="angled-gradient-button">1 - Algoritmos</a>
