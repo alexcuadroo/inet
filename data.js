@@ -1,3 +1,4 @@
+//optimizar en un futuro
 export const logica = [
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Epf7Rmtto1dMiwUWGqWHcDQBXUKwAUCTiG6cbSi_HUkhzQ?e=KHVhKC', title: 'L1- Lenguajes y sistemas formales' },
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ev7bqZr-wqxIuIbnYJMQz28BQDvX5t-y6PjPbPIh-W4JOw?e=PON6ej', title: 'L2- Conjuntos inductivos' },
@@ -14,9 +15,11 @@ export const logica = [
             { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Emb8lmm6mSlFpxdxhQx2fYIB1eJftP0se5M1KAiZIkRnIg?e=k6hEWd', title: 'L13- Parciales' }
 
 ];
-  // los datos de programacion hay que meterlos a mano arriba ⬆️ para que aparezcan en el search
+//no pongo la ruta local debido a que el search se vuelve loco (optimizar en un futuro)
 export const programacion = [
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EhbSvUWznftKvcBM4j3R4E0B259ozB6bUko-qfzJ63Xmng?e=aTTwUz', title: 'P1- Algoritmos y Seudocódigos' },
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ek9TegUJnCxIm3YYXOJ7GqkBxVifbUq6_gJvq25uy2R6IQ?e=fbmMIn', title: 'P2- Seudocódigo y Práct. 1,2,3' },
+    { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EnNxdlr69ZNHpyiaojVZT5EBBVKuoHTNSeZZByLfu_EFZw?e=lHJr4U', title: 'P3- Seudocódigos Si Sino Entonces' },
+    { url: 'https://app.alexcuadro.tech/inet/programacion/practicos', title: 'Prácticos' },
     { url: 'https://app.alexcuadro.tech/inet/programacion/python', title: 'EXTRA - Python' }
 ]
