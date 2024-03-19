@@ -20,6 +20,7 @@ export const programacion = [
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EhbSvUWznftKvcBM4j3R4E0B259ozB6bUko-qfzJ63Xmng?e=aTTwUz', title: 'P1- Algoritmos y Seudocódigos' },
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/Ek9TegUJnCxIm3YYXOJ7GqkBxVifbUq6_gJvq25uy2R6IQ?e=fbmMIn', title: 'P2- Seudocódigo y Práct. 1,2,3' },
     { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EnNxdlr69ZNHpyiaojVZT5EBBVKuoHTNSeZZByLfu_EFZw?e=lHJr4U', title: 'P3- Seudocódigos Si Sino Entonces' },
+            { url: 'https://docenteceibaleduuy-my.sharepoint.com/:f:/g/personal/alex_cuadro_docente_ceibal_edu_uy/EktqgdCsHjpEuYf_HucmxDwBB-G5dDUJCwPEoRfIgCD1WQ?e=3OgNG0', title: 'P4- Seudocódigos usando Mientras' },
     { url: 'https://app.alexcuadro.tech/inet/programacion/practicos', title: 'Prácticos' },
     { url: 'https://app.alexcuadro.tech/inet/programacion/python', title: 'EXTRA - Python' }
 ]
