@@ -2,6 +2,11 @@ import { logica, programacion } from './data.js';
 const searchBar = document.querySelector(".search-bar");
 const searchInput = searchBar.querySelector(".search-input");
 
+// variable para hacer focus automaticamente en el search
+let input = document.getElementById('search');
+    window.onload = function() {
+    input.focus();
+}
 // Evento de cambio en el campo de entrada
 searchInput.addEventListener("input", () => {
     // Filtra los resultados de búsqueda
@@ -23,4 +28,5 @@ searchInput.addEventListener("input", () => {
         resultItem.appendChild(link);
         resultsList.appendChild(resultItem);
     });
+    
 });
