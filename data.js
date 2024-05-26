@@ -22,5 +22,6 @@ export const programacion = [
     { url: urlFija('Ek9TegUJnCxIm3YYXOJ7GqkBxVifbUq6_gJvq25uy2R6IQ?e=fbmMIn'), title: 'P2- Seudocódigo y Práct. 1,2,3' },
     { url: urlFija('Ek9TegUJnCxIm3YYXOJ7GqkBxVifbUq6_gJvq25uy2R6IQ?e=fbmMIn'), title: 'P3- Seudocódigos Si Sino Entonces' },
     { url: 'https://app.alexcuadro.tech/inet/programacion/practicos', title: 'Prácticos' },
-    { url: 'https://app.alexcuadro.tech/inet/programacion/python', title: 'EXTRA - Python' }
+    // { url: 'https://app.alexcuadro.tech/inet/programacion/python', title: 'EXTRA - Python' },
+    { url: './works', title: 'Trabajos Obligatorios' },
 ]
