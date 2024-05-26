@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programación | Works</title>
+    <link rel="icon" href="../../recursos/faviconB.webp" type="image/webp" />
+    <style>
+      * {
+        min-width: 0;
+        font: inherit;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100dvh;
+        color: white;
+        background: rgb(72, 0, 255);
+        background: linear-gradient(
+          0deg,
+          rgb(43, 0, 96) 0%,
+          rgb(38, 0, 96) 13%,
+          rgb(0, 0, 24) 100%
+        );
+      }
+      h2 {
+        padding: 20px;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+      }
+      .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+      }
+      .angled-gradient-button {
+        text-decoration: none;
+        background-size: 220%;
+        box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.15);
+        color: #dffada;
+        background-color: transparent;
+        background-position: 100%;
+        border: 3px solid #dffada;
+        text-transform: uppercase;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: all 0.2s ease-out;
+        font-weight: 900;
+        cursor: pointer;
+        letter-spacing: 2px;
+        background-image: linear-gradient(
+          110deg,
+          #3a1468 0%,
+          #6921ad 50%,
+          transparent 50%,
+          transparent 100%
+        );
+        font-size: 20px;
+        min-width: 360px;
+        text-align: center;
+      }
+
+      .angled-gradient-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.25);
+        background-position: 0;
+        color: #fff;
+      }
+      .foot {
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 160px;
+        position: sticky;
+        width: 100%;
+      }
+      @media screen and (min-width: 800px) {
+        body {
+          margin: auto;
+          min-height: 100dvh;
+          max-width: 1400px;
+        }
+        h2 {
+          font-family: "IBM Plex Mono", monospace;
+          font-weight: 400;
+          font-size: 4rem;
+          text-align: center;
+          padding-top: 130px;
+          margin: 0;
+        }
+        .contenedor {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 30px;
+          align-items: center;
+          padding-top: 50px;
+        }
+        .angled-gradient-button {
+          text-decoration: none;
+          background-size: 220%;
+          box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.15);
+          color: #dffada;
+          background-color: transparent;
+          background-position: 100%;
+          border: 3px solid #dffada;
+          text-transform: uppercase;
+          padding: 8px 16px;
+          border-radius: 8px;
+          transition: all 0.2s ease-out;
+          font-weight: 900;
+          cursor: pointer;
+          letter-spacing: 2px;
+          min-width: 250px;
+          background-image: linear-gradient(
+            110deg,
+            #270c49 0%,
+            #6921ad 50%,
+            transparent 50%,
+            transparent 100%
+          );
+          font-size: 24px;
+        }
+
+        .angled-gradient-button:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.25);
+          background-position: 0;
+          color: #fff;
+        }
+        .angled-gradient-button:active {
+          transform: translateY(-1px);
+        }
+        .foot {
+          font-size: 15px;
+          width: 95dvw;
+          margin-top: 250px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🧑‍💻 Trabajos Obligatorios</h2>
+    <section class="contenedor">
+      <a href="./w1.html" target="_blank" class="angled-gradient-button"
+        >Trabajo 1</a
+      >
+      <a
+        href="https://learn.microsoft.com/es-es/training/paths/beginner-python/"
+        target="_blank"
+        class="angled-gradient-button"
+        style="pointer-events: none"
+        >Trabajo 2</a
+      >
+      <a
+        href="https://code.visualstudio.com/"
+        target="_blank"
+        class="angled-gradient-button"
+        style="pointer-events: none"
+        >Trabajo 3</a
+      >
+      <a
+        href="https://www.youtube.com/watch?v=TbzrOz8HbFM&pp=ygUTY3Vyc28gdnMgY29kZSBkYWx0bw%3D%3D"
+        target="_blank"
+        class="angled-gradient-button"
+        style="pointer-events: none"
+        >Trabajo 4</a
+      >
+    </section>
+    <footer class="foot">
+      <p>Hecho con amor por Alex Cuadro 💕 2024</p>
+    </footer>
+  </body>
+</html>
