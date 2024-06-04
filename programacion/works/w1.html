@@ -1,8 +1,250 @@
-<script src="https://gist.github.com/alexcuadroo/a84b0656837933f4f9479fd82fd070f9.js"></script>
-<picture>
-  <img
-    src="./w1.png"
-    alt="iamgen del trabajo"
-    style="margin: auto; width: 100%"
-  />
-</picture>
+<html>
+  <style>
+    html {
+      scrollbar-width: thin;
+      scrollbar-color: #ad0000 #121216;
+    }
+    body {
+      margin: 0;
+    }
+    pre {
+      font-family: monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #ffffff;
+      background-color: #121216;
+      padding: 6px 10px;
+      border-radius: 3px;
+      overflow: auto;
+    }
+  </style>
+
+  <pre>
+  #include &lt;cstdio&gt;
+
+    const int N = 100;
+    char cadena1[N];
+    char cadena2[N];
+    char caracter;
+    int opcion;
+    int posicion;
+    
+    // longitud de cadena
+    int Largo(const char *cadena)
+    {
+        int largo = 0;
+        while (cadena[largo] != '\0')
+        {
+            ++largo;
+        }
+        return largo;
+    }
+    
+    // comprobación de largo
+    bool Concatenar(char *cadena1, const char *cadena2)
+    {
+        int largo1 = Largo(cadena1);
+        int largo2 = Largo(cadena2);
+        if (largo1 + largo2 >= N)
+        {
+            return false;
+        }
+        for (int i = 0; i <= largo2; ++i)
+        {
+            cadena1[largo1 + i] = cadena2[i];
+        }
+        return true;
+    }
+    
+    // contando cantidad de caracteres
+    int contarCaracter(const char *cadena, char caracter)
+    {
+        int contador = 0;
+        while (*cadena != '\0')
+        {
+            if (*cadena == caracter)
+            {
+                contador++;
+            }
+            cadena++;
+        }
+        return contador;
+    }
+    
+    // Reemplazar caracteres en una cadena
+    void ReemplazarCaracter(char *cadena, char viejo, char nuevo)
+    {
+        while (*cadena != '\0')
+        {
+            if (*cadena == viejo)
+            {
+                *cadena = nuevo;
+            }
+            cadena++;
+        }
+    }
+    
+    // Eliminar caracteres de una cadena
+    bool EliminarCaracter(char *cadena, char eliminar)
+    {
+        char *origen = cadena;
+        char *destino = cadena;
+        bool encontrado = false;
+    
+        while (*origen != '\0')
+        {
+            if (*origen != eliminar)
+            {
+                *destino = *origen;
+                destino++;
+            }
+            else
+            {
+                encontrado = true;
+            }
+            origen++;
+        }
+        *destino = '\0'; // Termina la cadena correctamente
+    
+        return encontrado;
+    }
+    
+    // Pertenece
+    bool Pertenece(const char *cadena, char caracter)
+    {
+        while (*cadena != '\0')
+        {
+            if (*cadena == caracter)
+            {
+                return true;
+            }
+            cadena++;
+        }
+        return false;
+    }
+    
+    // Encontrar la posición de un carácter en una cadena
+    int PosicionCaracter(const char *cadena, char caracter)
+    {
+        int posicion = 0;
+        while (*cadena != '\0')
+        {
+            if (*cadena == caracter)
+            {
+                return posicion;
+            }
+            cadena++;
+            posicion++;
+        }
+        return -1;
+    }
+    
+    int main()
+    {
+        printf("BIENVENID@ - PARA ACCEDER AL MENÚ DEBES INGRESAR UNA CADENA\nIngrese la cadena: ");
+        fgets(cadena1, N, stdin);
+        cadena1[Largo(cadena1) - 1] = '\0'; // Elimina el salto de línea al final de la cadena si está presente
+    
+        do {
+            printf("\n************************\n");
+            printf("*                      *\n");
+            printf("*         Menú         *\n");
+            printf("*                      *\n");
+            printf("************************\n");
+            printf("1. Mostrar longitud de la cadena\n");
+            printf("2. Concatenar dos cadenas\n");
+            printf("3. Contar cantidad de un caracter en la cadena\n");
+            printf("4. Reemplazar un caracter en la cadena\n");
+            printf("5. Eliminar un caracter de la cadena\n");
+            printf("6. Verificar si un caracter pertenece a la cadena\n");
+            printf("7. Encontrar la posición de un caracter en la cadena\n");
+            printf("8. Salir\n");
+            printf("Seleccione una opción: ");
+            scanf("%d", &opcion);
+            getchar(); // Consumir el salto de línea residual
+    
+            switch(opcion) {
+                case 1:
+                    printf("El largo de la cadena es: %d\n", Largo(cadena1));
+                    break;
+                case 2:
+                    printf("Ingrese la segunda cadena: ");
+                    fgets(cadena2, N, stdin);
+                    cadena2[Largo(cadena2) - 1] = '\0';
+                    if (Concatenar(cadena1, cadena2))
+                    {
+                        printf("La cadena concatenada es: %s\n", cadena1);
+                    }
+                    else
+                    {
+                        printf("Error: La concatenación excede el largo máximo permitido.\n");
+                    }
+                    break;
+                case 3:
+                    printf("¿Cuál caracter quieres saber cuántas veces se encuentra?: ");
+                    scanf(" %c", &caracter);
+                    printf("El caracter %c se encuentra %d veces en la cadena\n", caracter, contarCaracter(cadena1, caracter));
+                    break;
+                case 4:
+                    char charA, charB;
+                    printf("Ingrese el caracter a reemplazar: ");
+                    scanf(" %c", &charA);
+                    printf("Ingrese el nuevo caracter: ");
+                    scanf(" %c", &charB);
+                    ReemplazarCaracter(cadena1, charA, charB);
+                    printf("La cadena resultante después del reemplazo es: %s\n", cadena1);
+                    break;
+                case 5:
+                    char eliminar;
+                    printf("Ingrese el caracter a eliminar: ");
+                    scanf(" %c", &eliminar);
+                    if (EliminarCaracter(cadena1, eliminar))
+                    {
+                        printf("La cadena resultante después de eliminar '%c' es: %s\n", eliminar, cadena1);
+                    }
+                    else
+                    {
+                        printf("Error: El caracter '%c' no se encuentra en la cadena.\n", eliminar);
+                    }
+                    break;
+                case 6:
+                    char buscar;
+                    printf("Ingrese el caracter a buscar: ");
+                    scanf(" %c", &buscar);
+                    if (Pertenece(cadena1, buscar))
+                    {
+                        printf("El caracter '%c' pertenece a la cadena.\n", buscar);
+                    }
+                    else
+                    {
+                        printf("El caracter '%c' no pertenece a la cadena.\n", buscar);
+                    }
+                    break;
+                case 7:
+                    printf("Ingrese el caracter para encontrar su posición: ");
+                    scanf(" %c", &buscar);
+                    posicion = PosicionCaracter(cadena1, buscar); // Asignar el valor aquí
+                    if (posicion != -1)
+                    {
+                        printf("El caracter '%c' se encuentra en la posición %d de la cadena.\n", buscar, posicion);
+                    }
+                    else
+                    {
+                        printf("El caracter '%c' no se encuentra en la cadena.\n", buscar);
+                    }
+                    break;
+                case 8:
+                    printf("Saliendo del programa.\n");
+                    break;
+                default:
+                    printf("Opción inválida, por favor intente de nuevo.\n");
+                    break;
+            }
+        } while (opcion != 8);
+    
+        return 0;
+    }
+    
+</pre
+  >
+</html>
